@@ -1,0 +1,21 @@
+{
+  "name": "aftercare-service",
+  "version": "1.0.0",
+  "description": "NodeJS package for the aftercare application lambda function",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Regan van Heerden",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1406.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.119",
+    "@types/node": "^20.3.2",
+    "aws-lambda": "^1.0.7",
+    "typescript": "^5.1.5"
+  }
+}

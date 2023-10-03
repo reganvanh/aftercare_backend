@@ -1,0 +1,21 @@
+{
+  "name": "aftercare_backend",
+  "version": "0.0.1",
+  "description": "API and Databases CDK and src code for aftercare backend services",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "cdk deploy --profile aftercare --require-approval=never"
+  },
+  "author": "Regan van Heerden",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "l": "^0.6.0"
+  }
+}
